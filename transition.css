@@ -1,12 +1,8 @@
-p {
-    transition: none;
-    transition: none;
-    transition: none;
-    transition: none;
-    transition: none;
-    transition: none;
-    transition: none;
-    transition: none;
-    transition: none;
-    transition: none;
+#home {
+  background-image: url("../../static/img/header-background.png");
+  background-repeat: repeat;
+  background-position: 0 0, 0 0, 0 0;
+  background-color: #00539f;
+  background-image: url("../../static/img/header-background.png"), url("../../static/img/blueprint.png"), url("../../static/img/mdn-header-gradient.png");
+  background-repeat: repeat, repeat, repeat-x;
 }
